@@ -16,8 +16,8 @@
           ],
           "name": "My Radio",
           "description": "Listen to My Radio, with less bla bla bla, and more la la la.\n\nMy Radio provides a high quality sound 24/7 with the best music.\n\nTo start, just say \"Alexa, launch My Radio\" or \"Alexa, play Illinois Radio Reader\" to start the radio\".\n\nAt anytime, you can stop the radio by saying \"Alexa, stop\"",
-          "smallIconUri": "https://alexademo.ninja/skills/logo-108.png",
-          "largeIconUri": "https://alexademo.ninja/skills/logo-512.png"
+          "smallIconUri": "https://will.illinois.edu/android-chrome-192x192.png",
+          "largeIconUri": "https://will.illinois.edu/android-chrome-512x512.png"
         },
         "en-GB": {
           "summary": "A free radio service for the blind and visually impaired community of east central Illinois, provided by Illinois Public Media.",
@@ -33,8 +33,8 @@
           ],
           "name": "My Radio",
           "description": "Listen to My Radio, with less bla bla bla, and more la la la.\n\nMy Radio provides a high quality sound 24/7 with the best music.\n\nTo start, just say \"Alexa, launch My Radio\" or \"Alexa, play Illinois Radio Reader\" to start the radio\".\n\nAt anytime, you can stop the radio by saying \"Alexa, stop\"",
-          "smallIconUri": "https://alexademo.ninja/skills/logo-108.png",
-          "largeIconUri": "https://alexademo.ninja/skills/logo-512.png"
+          "smallIconUri": "https://will.illinois.edu/android-chrome-192x192.png",
+          "largeIconUri": "https://will.illinois.edu/android-chrome-512x512.png"
         },
         "en-IN": {
           "summary": "A free radio service for the blind and visually impaired community of east central Illinois, provided by Illinois Public Media.",
@@ -50,8 +50,8 @@
           ],
           "name": "My Radio",
           "description": "Listen to My Radio, with less bla bla bla, and more la la la.\n\nMy Radio provides a high quality sound 24/7 with the best music.\n\nTo start, just say \"Alexa, launch My Radio\" or \"Alexa, play Illinois Radio Reader\" to start the radio\".\n\nAt anytime, you can stop the radio by saying \"Alexa, stop\"",
-          "smallIconUri": "https://alexademo.ninja/skills/logo-108.png",
-          "largeIconUri": "https://alexademo.ninja/skills/logo-512.png"
+          "smallIconUri": "https://will.illinois.edu/android-chrome-192x192.png",
+          "largeIconUri": "https://will.illinois.edu/android-chrome-512x512.png"
         },
         "en-CA": {
           "summary": "A free radio service for the blind and visually impaired community of east central Illinois, provided by Illinois Public Media.",
@@ -67,12 +67,13 @@
           ],
           "name": "My Radio",
           "description": "Listen to My Radio, with less bla bla bla, and more la la la.\n\nMy Radio provides a high quality sound 24/7 with the best music.\n\nTo start, just say \"Alexa, launch My Radio\" or \"Alexa, play Illinois Radio Reader\" to start the radio\".\n\nAt anytime, you can stop the radio by saying \"Alexa, stop\"",
-          "smallIconUri": "https://alexademo.ninja/skills/logo-108.png",
-          "largeIconUri": "https://alexademo.ninja/skills/logo-512.png"
+          "smallIconUri": "https://will.illinois.edu/android-chrome-192x192.png",
+          "largeIconUri": "https://will.illinois.edu/android-chrome-512x512.png"
         },
         "en-AU": {
           "summary": "A free radio service for the blind and visually impaired community of east central Illinois, provided by Illinois Public Media.",
           "examplePhrases": [
+            "Alexa, launch Illinois Radio Reader",
             "Alexa, open Illinois Radio Reader",
             "Alexa, play Illinois Radio Reader",
             "Alexa, ask Illinois Radio Reader to play"
@@ -82,10 +83,10 @@
             "streaming",
             "radio"
           ],
-          "name": "My Radio",
-          "description": "Listen to My Radio, with less bla bla bla, and more la la la.\n\nMy Radio provides a high quality sound 24/7 with the best music.\n\nTo start, just say \"Alexa, launch My Radio\" or \"Alexa, play Illinois Radio Reader\" to start the radio\".\n\nAt anytime, you can stop the radio by saying \"Alexa, stop\"",
-          "smallIconUri": "https://alexademo.ninja/skills/logo-108.png",
-          "largeIconUri": "https://alexademo.ninja/skills/logo-512.png"
+          "name": "Illinois Radio Reader",
+          "description": "The Illinois Radio Reader is a free service for the reading impaired community of east central Illinois. The service depends on volunteer readers who produce 80+ hours of weekly programming.\n\nTo start, just say \"Alexa, launch Illinois Radio Reader\" or \"Alexa, play Illinois Radio Reader\" to start the radio\".\n\nAt any time, you can stop the radio by saying \"Alexa, stop.\"",
+          "smallIconUri": "https://will.illinois.edu/android-chrome-192x192.png",
+          "largeIconUri": "https://will.illinois.edu/android-chrome-512x512.png"
         },
         "isAvailableWorldwide": true,
         "testingInstructions": "Include your testing instruction (if any) here",
