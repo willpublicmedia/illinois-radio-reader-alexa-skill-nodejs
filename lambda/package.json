@@ -1,7 +1,7 @@
 {
-  "name": "skill_sample_nodejs_sdkv2_single_stream",
-  "version": "2.0.0",
-  "description": "NodeJS SDKv2 Audio Sample Skill",
+  "name": "alexa-skill-nodejs-illinois-radio-reader",
+  "version": "1.0.0",
+  "description": "A free radio streaming service for the blind and visually impaired community of east central Illinois. Based on the sample skill by Sébastien Stormacq.",
   "main": "index.ts",
   "scripts": {
     "clean": "rm -rf dist/*",
@@ -11,9 +11,17 @@
   "keywords": [
     "alexa",
     "skill",
-    "audio player"
+    "audio player",
+    "illinois radio reader",
+    "will",
+    "blind",
+    "illinois public media",
+    "streaming",
+    "radio",
+    "service",
+    "accessibility"
   ],
-  "author": "Sébastien Stormacq",
+  "author": "Illinois Public Media",
   "license": "../../LICENSE.txt",
   "dependencies": {
     "ask-sdk": "2.7.0"
@@ -29,6 +37,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexa/skill-sample-nodejs-audio-player"
+    "url": "https://gitlab.engr.illinois.edu/willpublicmedia/alexa-skill-nodejs-illinois-radio-reader"
   }
 }
