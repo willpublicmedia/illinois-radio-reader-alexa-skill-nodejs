@@ -3,7 +3,7 @@
 import { Request, IntentRequest, LaunchRequest } from 'ask-sdk-model';
 let en = {
     card: {
-        title: 'My Radio',
+        title: 'Illinois Radio Reader',
         text: 'Less bla bla bla, more la la la',
         image: {
             largeImageUrl: 'https://will.illinois.edu/android-chrome-512x512.png',
@@ -16,7 +16,7 @@ let en = {
 
 let fr = {
     card: {
-        title: 'My Radio',
+        title: 'Illinois Radio Reader',
         text: 'Moins de bla bla bla, plus de la la la',
         image: {
             image: {
