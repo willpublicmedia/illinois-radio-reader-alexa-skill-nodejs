@@ -6,3 +6,4 @@
 sync_upstream.sh
 podcast/**
 coverage
+test_output/**
