@@ -15,9 +15,5 @@ let EnglishStrings = {
 };
 
 export const strings = {
-    "en-GB": EnglishStrings,
-    "en-US": EnglishStrings,
-    "en-IN": EnglishStrings,
-    "en-CA": EnglishStrings,
-    "en-AU": EnglishStrings
+    "en-US": EnglishStrings
 };

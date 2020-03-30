@@ -15,11 +15,7 @@ let en = {
 };
 
 let globalAudioData = {
-    'en-US': en,
-    'en-GB': en,
-    'en-CA': en,
-    'en-IN': en,
-    'en-AU': en
+    'en-US': en
 };
 
 export function audioData(request: Request) {
