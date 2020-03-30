@@ -4,7 +4,7 @@ import { Request, IntentRequest, LaunchRequest } from 'ask-sdk-model';
 let en = {
     card: {
         title: 'Illinois Radio Reader',
-        text: 'Less bla bla bla, more la la la',
+        text: 'A free radio service for the blind and visually impaired community of east central Illinois, provided by Illinois Public Media.',
         image: {
             largeImageUrl: 'https://will.illinois.edu/android-chrome-512x512.png',
             smallImageUrl: 'https://will.illinois.edu/android-chrome-192x192.png'
