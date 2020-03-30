@@ -6,8 +6,8 @@ let en = {
         title: 'My Radio',
         text: 'Less bla bla bla, more la la la',
         image: {
-            largeImageUrl: 'https://alexademo.ninja/skills/logo-512.png',
-            smallImageUrl: 'https://alexademo.ninja/skills/logo-108.png'
+            largeImageUrl: 'https://will.illinois.edu/android-chrome-512x512.png',
+            smallImageUrl: 'https://will.illinois.edu/android-chrome-192x192.png'
         }
     },
     url: 'https://icecast.will.illinois.edu/WILL-IRR',
@@ -20,8 +20,8 @@ let fr = {
         text: 'Moins de bla bla bla, plus de la la la',
         image: {
             image: {
-                largeImageUrl: 'https://alexademo.ninja/skills/logo-512.png',
-                smallImageUrl: 'https://alexademo.ninja/skills/logo-108.png'
+                largeImageUrl: 'https://will.illinois.edu/android-chrome-512x512.png',
+                smallImageUrl: 'https://will.illinois.edu/android-chrome-192x192.png'
             }
     
         }
@@ -36,8 +36,8 @@ let it = {
         text: 'Meno parlare, più musica',
         image: {
             image: {
-                largeImageUrl: 'https://alexademo.ninja/skills/logo-512.png',
-                smallImageUrl: 'https://alexademo.ninja/skills/logo-108.png'
+                largeImageUrl: 'https://will.illinois.edu/android-chrome-512x512.png',
+                smallImageUrl: 'https://will.illinois.edu/android-chrome-192x192.png'
             }
     
         }
@@ -52,8 +52,8 @@ let es = {
         text: 'Menos conversación, más música',
         image: {
             image: {
-                largeImageUrl: 'https://alexademo.ninja/skills/logo-512.png',
-                smallImageUrl: 'https://alexademo.ninja/skills/logo-108.png'
+                largeImageUrl: 'https://will.illinois.edu/android-chrome-512x512.png',
+                smallImageUrl: 'https://will.illinois.edu/android-chrome-192x192.png'
             }
     
         }
