@@ -24,10 +24,10 @@ configuration:
 ---
 - test: Launch request, no further interaction.
 - LaunchRequest:
-  - response.outputSpeech.ssml: Welcome to My Radio
-  - response.card.title: My Radio
-  - response.card.text: Less bla bla bla, more la la la
-  - response.card.image.largeImageUrl: https://alexademo.ninja/skills/logo-512.png
+  - response.outputSpeech.ssml: Welcome to Illinois Radio Reader
+  - response.card.title: Illinois Radio Reader
+  - response.card.text: A free radio service for the blind and visually impaired community of east central Illinois, provided by Illinois Public Media.
+  - response.card.image.largeImageUrl: https://will.illinois.edu/android-chrome-512x512.png
   - response.shouldEndSession: true
   - response.directives[0].type: AudioPlayer.Play
   - response.directives[0].playBehavior: REPLACE_ALL
@@ -37,7 +37,7 @@ configuration:
 ---
 - test: Launch request, now a returning user
 - LaunchRequest:
-  - response.directives[0].audioItem.stream.url: https://audio1.maxi80.com
+  - response.directives[0].audioItem.stream.url: https://icecast.will.illinois.edu/WILL-IRR
 - AMAZON.StopIntent
 
 ---
@@ -45,25 +45,25 @@ configuration:
 - LaunchRequest
 - AMAZON.NextIntent: This is radio, you have to wait for next track to play.
 - AMAZON.PreviousIntent: This is radio, you have to wait for next track to play.
-- AMAZON.ShuffleOnIntent: This is radio, you can not do that.  You can ask me to stop or pause to stop listening.
+- AMAZON.ShuffleOnIntent: This is radio, you can not do that. You can ask me to stop or pause to stop listening.
 - AMAZON.StopIntent
 
 ---
 - test: Start over intent.
 - LaunchRequest
-- AMAZON.StartOverIntent: This is radio, you can not do that.  You can ask me to stop or pause to stop listening.
+- AMAZON.StartOverIntent: This is radio, you can not do that. You can ask me to stop or pause to stop listening.
 
 ---
 - test: Resume and pause music.
 - AMAZON.ResumeIntent:
-  - response.outputSpeech.ssml: Resuming My Radio
-  - response.directives[0].audioItem.stream.url: https://audio1.maxi80.com
+  - response.outputSpeech.ssml: Resuming Illinois Radio Reader
+  - response.directives[0].audioItem.stream.url: https://icecast.will.illinois.edu/WILL-IRR
 - AMAZON.PauseIntent: Goodbye
 
 ---
 - test: Help intent.
 - AMAZON.ResumeIntent
-- AMAZON.HelpIntent: Welcome to My Radio. You can play, stop, resume listening.  How can I help you ?
+- AMAZON.HelpIntent: Welcome to Illinois Radio Reader. You can play, stop, resume listening. How can I help you ?
 - AMAZON.StopIntent
 
 ---
@@ -84,13 +84,13 @@ configuration:
   - response.shouldEndSession: true
   - response.directives[0].type: AudioPlayer.Play
   - response.directives[0].playBehavior: REPLACE_ENQUEUED
-  - response.directives[0].audioItem.stream.url: https://audio1.maxi80.com
-  - response.directives[0].audioItem.metadata.title: My Radio
-  - response.directives[0].audioItem.metadata.subtitle: Less bla bla bla, more la la la
-  - response.directives[0].audioItem.metadata.art.contentDescription: My Radio
-  - response.directives[0].audioItem.metadata.art.sources[0].url: https://alexademo.ninja/skills/logo-512.png
-  - response.directives[0].audioItem.metadata.backgroundImage.contentDescription: My Radio
-  - response.directives[0].audioItem.metadata.backgroundImage.sources[0].url: https://alexademo.ninja/skills/logo-512.png
+  - response.directives[0].audioItem.stream.url: https://icecast.will.illinois.edu/WILL-IRR
+  - response.directives[0].audioItem.metadata.title: Illinois Radio Reader
+  - response.directives[0].audioItem.metadata.subtitle: A free radio service for the blind and visually impaired community of east central Illinois, provided by Illinois Public Media.
+  - response.directives[0].audioItem.metadata.art.contentDescription: Illinois Radio Reader
+  - response.directives[0].audioItem.metadata.art.sources[0].url: https://will.illinois.edu/android-chrome-512x512.png
+  - response.directives[0].audioItem.metadata.backgroundImage.contentDescription: Illinois Radio Reader
+  - response.directives[0].audioItem.metadata.backgroundImage.sources[0].url: https://will.illinois.edu/android-chrome-512x512.png
 
 ---
 - test: AudioPlayer.PlaybackFailed.
