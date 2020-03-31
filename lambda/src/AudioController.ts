@@ -15,13 +15,13 @@ class AudioController {
                 art: {
                     contentDescription: cardData.title,
                     sources: [{
-                        url: "https://alexademo.ninja/skills/logo-512.png"
+                        url: "https://will.illinois.edu/android-chrome-512x512.png"
                     }]
                 },
                 backgroundImage: {
                     contentDescription: cardData.title,
                     sources: [{
-                        url: "https://alexademo.ninja/skills/logo-512.png"
+                        url: "https://will.illinois.edu/android-chrome-512x512.png"
                     }]
                 }
             };
