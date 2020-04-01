@@ -8,3 +8,4 @@ podcast/**
 coverage
 test_output/**
 .ask/**
+hooks/**
