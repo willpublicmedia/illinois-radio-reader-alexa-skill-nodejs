@@ -7,6 +7,7 @@
           "summary": "A free radio service for the blind and visually impaired community of east central Illinois, provided by Illinois Public Media.",
           "description": "The Illinois Radio Reader is a free service for the reading impaired community of east central Illinois. The service depends on volunteer readers who produce 80+ hours of weekly programming.\n\nTo start, just say \"Alexa, launch Illinois Radio Reader\" or \"Alexa, play Illinois Radio Reader\" to start the radio\".\n\nAt anytime, you can stop the radio by saying \"Alexa, stop\"",
           "largeIconUri": "https://will.illinois.edu/android-chrome-512x512.png",
+          "smallIconUri": "https://will.illinois.edu/android-chrome-108x108.png",
           "examplePhrases": [
             "Alexa, open Illinois Radio Reader",
             "Alexa, play Illinois Radio Reader",
@@ -45,6 +46,13 @@
         ]
       }
     },
-    "manifestVersion": "1.0"
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
   }
 }
