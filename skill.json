@@ -1,49 +1,50 @@
 {
-    "manifest": {
-        "publishingInformation": {
-            "locales": {
-                "en-US": {
-                    "name": "illinois-radio-reader",
-                    "summary": "A free radio service for the blind and visually impaired community of east central Illinois, provided by Illinois Public Media.",
-                    "description": "The Illinois Radio Reader is a free service for the reading impaired community of east central Illinois. The service depends on volunteer readers who produce 80+ hours of weekly programming.\n\nTo start, just say \"Alexa, launch Illinois Radio Reader\" or \"Alexa, play Illinois Radio Reader\" to start the radio\".\n\nAt anytime, you can stop the radio by saying \"Alexa, stop\"",
-                    "smallIconUri": "https://will.illinois.edu/android-chrome-192x192.png",
-                    "largeIconUri": "https://will.illinois.edu/android-chrome-512x512.png",
-                    "examplePhrases": [
-                        "Alexa, open Illinois Radio Reader",
-                        "Alexa, play Illinois Radio Reader",
-                        "Alexa, ask Illinois Radio Reader to play"
-                    ],
-                    "keywords": [
-                        "accessibility",
-                        "blind",
-                        "illinois",
-                        "new",
-                        "newspaper",
-                        "public",
-                        "radio",
-                        "reader",
-                        "service",
-                        "streaming",
-                        "will"
-                    ]
-                }
-            },
-            "isAvailableWorldwide": false,
-            "testingInstructions": "Include your testing instruction (if any) here",
-            "category": "STREAMING_SERVICE",
-            "distributionCountries": []
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Illinois Radio Reader",
+          "summary": "A free radio service for the blind and visually impaired community of east central Illinois, provided by Illinois Public Media.",
+          "description": "The Illinois Radio Reader is a free service for the reading impaired community of east central Illinois. The service depends on volunteer readers who produce 80+ hours of weekly programming.\n\nTo start, just say \"Alexa, launch Illinois Radio Reader\" or \"Alexa, play Illinois Radio Reader\" to start the radio\".\n\nAt anytime, you can stop the radio by saying \"Alexa, stop\"",
+          "largeIconUri": "https://will.illinois.edu/android-chrome-512x512.png",
+          "examplePhrases": [
+            "Alexa, open Illinois Radio Reader",
+            "Alexa, play Illinois Radio Reader",
+            "Alexa, ask Illinois Radio Reader to play"
+          ],
+          "keywords": [
+            "accessibility",
+            "blind",
+            "illinois",
+            "new",
+            "newspaper",
+            "public",
+            "radio",
+            "reader",
+            "service",
+            "streaming",
+            "will"
+          ]
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Include your testing instruction (if any) here",
+      "category": "STREAMING_SERVICE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/dist",
+          "uri": "ask-skill-illinois-radio-reader"
         },
-        "apis": {
-            "custom": {
-                "endpoint": {
-                    "sourceDir": "lambda/dist",
-                    "uri": "ask-skill-illinois-radio-reader"
-                },
-                "interfaces": [{
-                    "type": "AUDIO_PLAYER"
-                }]
-            }
-        },
-        "manifestVersion": "1.0"
-    }
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0"
+  }
 }
