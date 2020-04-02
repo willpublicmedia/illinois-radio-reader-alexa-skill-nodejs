@@ -29,7 +29,7 @@
         }
       },
       "isAvailableWorldwide": false,
-      "testingInstructions": "Include your testing instruction (if any) here",
+      "testingInstructions": "",
       "category": "STREAMING_SERVICE",
       "distributionCountries": []
     },
