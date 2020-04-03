@@ -6,11 +6,12 @@
         {
           "name": "PlayAudio",
           "samples": [
+            "open illinois radio reader",
+            "open illinois radio reader please",
             "play illinois radio reader",
             "play illinois radio reader please",
             "start illinois radio reader",
-            "start illinois radio reader please",
-            "listen to illinois radio reader"
+            "start illinois radio reader please"
           ]
         },
         {

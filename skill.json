@@ -9,9 +9,8 @@
           "largeIconUri": "https://will.illinois.edu/android-chrome-512x512.png",
           "smallIconUri": "https://will.illinois.edu/android-chrome-108x108.png",
           "examplePhrases": [
-            "Alexa, open Illinois Radio Reader",
             "Alexa, play Illinois Radio Reader",
-            "Alexa, ask Illinois Radio Reader to play"
+            "Alexa, start Illinois Radio Reader"
           ],
           "keywords": [
             "accessibility",
