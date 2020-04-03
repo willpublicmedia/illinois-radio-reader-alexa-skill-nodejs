@@ -2,7 +2,7 @@
 export const Constants = {
     
     // when true, the skill logs additional detail, including the full request received from Alexa
-    debug : true,
+    debug : false,
 
     // when developing offline, use local dynamodb (do not forget to start the DB and to create the table)
     useLocalDB : false, 
