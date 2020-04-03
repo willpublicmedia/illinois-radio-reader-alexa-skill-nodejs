@@ -1,8 +1,10 @@
-# Single Stream Audio Skill (Illinois Radio Reader)
+# Illinois Radio Reader Skill
 
-This skill demonstrates how to create a single stream audio skill. Single stream skills are typically used by radio stations to provide a convenient and quick access to their live stream.
+This Amazon skill plays and stops [Illinois Radio Reader](https://will.illinois.edu/illinoisradioreader).
 
-User interface is limited to Play and Stop use cases.
+Illinois Radio Reader is a free service for the reading impaired community of east central Illinois hosted by Illinois Public Media. The service depends on volunteer readers who produce 80+ hours of weekly programming.
+
+The live reader schedule is available at <https://will.illinois.edu/illinoisradioreader/schedule>.
 
 ## Usage
 
