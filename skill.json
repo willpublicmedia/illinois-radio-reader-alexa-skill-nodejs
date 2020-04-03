@@ -31,7 +31,9 @@
       "isAvailableWorldwide": false,
       "testingInstructions": "1. Say 'Alexa, play illinois radio reader.'\n\nTester should hear central illinois news content.\n\n2. Say 'stop.'\n\nAudio should stop.",
       "category": "STREAMING_SERVICE",
-      "distributionCountries": []
+      "distributionCountries": [
+        "US"
+      ]
     },
     "apis": {
       "custom": {
