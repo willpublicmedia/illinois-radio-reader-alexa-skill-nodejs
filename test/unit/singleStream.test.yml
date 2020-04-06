@@ -37,7 +37,8 @@ configuration:
 ---
 - test: Launch request, now a returning user
 - LaunchRequest:
-  - response.directives[0].audioItem.stream.url: https://icecast.will.illinois.edu/WILL-IRR
+  # - response.directives[0].audioItem.stream.url: https://icecast.will.illinois.edu/WILL-IRR
+  - response.directives[0].audioItem.stream.url: https://s3.amazonaws.com/audio02.will.illinois.edu/irr-indemnification.mp3
 - AMAZON.StopIntent
 
 ---
