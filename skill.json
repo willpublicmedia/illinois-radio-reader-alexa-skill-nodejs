@@ -25,7 +25,7 @@
             "streaming",
             "will"
           ],
-          "updatesDescription": "1.0.1: Play hourly copyright notification."
+          "updatesDescription": "1.0.1:\n\n\t- Play hourly copyright notification.\n\n\t- Add schedule URL to description."
         }
       },
       "isAvailableWorldwide": false,
