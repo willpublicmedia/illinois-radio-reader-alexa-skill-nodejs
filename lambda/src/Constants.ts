@@ -11,8 +11,8 @@ export const Constants = {
     // this allows to avoid to repeat the jingle at each invocation 
     jingle : {
         databaseTable : "illinois_radio_reader",
-        playOnceEvery : 1000 /*ms*/ * 60 * 60 * 24 // 24 hours
-        //playOnceEvery : 1000 /*ms*/ * 60 * 3 // 3 minutes 
+        // playOnceEvery : 1000 /*ms*/ * 60 * 60 * 24 // 24 hours
+        playOnceEvery : 1000 /*ms*/ * 60 * 60 // 60 minutes 
     }
 
 };
