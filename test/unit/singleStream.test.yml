@@ -31,7 +31,7 @@ configuration:
   - response.shouldEndSession: true
   - response.directives[0].type: AudioPlayer.Play
   - response.directives[0].playBehavior: REPLACE_ALL
-  # - response.directives[0].audioItem.stream.url: https://s3-eu-west-1.amazonaws.com/alexa.maxi80.com/assets/jingle.m4a
+  - response.directives[0].audioItem.stream.url: https://s3-eu-west-1.amazonaws.com/alexa.maxi80.com/assets/jingle.m4a
 - AMAZON.StopIntent: Goodbye
 
 ---

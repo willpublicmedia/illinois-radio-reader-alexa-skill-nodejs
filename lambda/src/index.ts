@@ -22,8 +22,8 @@ export async function handler(event: RequestEnvelope, context: any, callback: an
                 .withHandlers(AudioHandler)
                 .build()
         )
-        // .withAutoCreateTable(true)
-        // .withTableName(Constants.jingle.databaseTable);
+        .withAutoCreateTable(true)
+        .withTableName(Constants.jingle.databaseTable);
 
     if (Constants.useLocalDB) {
         const ddbClient = new AWS.DynamoDB({

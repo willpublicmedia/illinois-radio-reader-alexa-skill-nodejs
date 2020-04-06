@@ -71,41 +71,41 @@ class Util {
 
         let WILL_PLAY_JINGLE: boolean = false;
 
-        // // is a jingle defined for this locale ?
-        // if (audioData(handlerInput.requestEnvelope.request).startJingle === undefined) {
-        //     return WILL_PLAY_JINGLE;
-        // }
+        // is a jingle defined for this locale ?
+        if (audioData(handlerInput.requestEnvelope.request).startJingle === undefined) {
+            return WILL_PLAY_JINGLE;
+        }
 
-        // let attributes = await handlerInput.attributesManager.getPersistentAttributes();
+        let attributes = await handlerInput.attributesManager.getPersistentAttributes();
 
-        // // Check if user is invoking the skill the first time and initialize preset values
-        // if (attributes === undefined || Object.keys(attributes).length === 0) {
-        //     attributes = {
-        //         lastPlayed: 0,
-        //         playedCount: 0
-        //     };
-        //     handlerInput.attributesManager.setPersistentAttributes(attributes);
-        // }
+        // Check if user is invoking the skill the first time and initialize preset values
+        if (attributes === undefined || Object.keys(attributes).length === 0) {
+            attributes = {
+                lastPlayed: 0,
+                playedCount: 0
+            };
+            handlerInput.attributesManager.setPersistentAttributes(attributes);
+        }
 
-        // let lastPlayedEPOCH = attributes.lastPlayed;
-        // let now = Math.round(new Date().getTime());
+        let lastPlayedEPOCH = attributes.lastPlayed;
+        let now = Math.round(new Date().getTime());
 
-        // // When last played is more that playOnceEvery ago, agree to play the jingle
-        // WILL_PLAY_JINGLE = (lastPlayedEPOCH === 0) || (lastPlayedEPOCH + Constants.jingle.playOnceEvery < now);
-        // // console.log("lastPlayedEPOCH : " + lastPlayedEPOCH);
-        // // console.log("playOnceEvery   : " + constants.jingle.playOnceEvery);
-        // // console.log("now             : " + now);
-        // // console.log("last + every    : " + (lastPlayedEPOCH + constants.jingle.playOnceEvery));
-        // // console.log("WILL PLAY       : " + WILL_PLAY_JINGLE);
+        // When last played is more that playOnceEvery ago, agree to play the jingle
+        WILL_PLAY_JINGLE = (lastPlayedEPOCH === 0) || (lastPlayedEPOCH + Constants.jingle.playOnceEvery < now);
+        // console.log("lastPlayedEPOCH : " + lastPlayedEPOCH);
+        // console.log("playOnceEvery   : " + constants.jingle.playOnceEvery);
+        // console.log("now             : " + now);
+        // console.log("last + every    : " + (lastPlayedEPOCH + constants.jingle.playOnceEvery));
+        // console.log("WILL PLAY       : " + WILL_PLAY_JINGLE);
 
-        // if (WILL_PLAY_JINGLE) {
+        if (WILL_PLAY_JINGLE) {
 
-        //     // update the DB
-        //     // console.log("We will play the jingle, let's update the DB to remember that");
-        //     attributes.lastPlayed = now;
-        //     attributes.playedCount = attributes.playedCount + 1;
-        //     handlerInput.attributesManager.savePersistentAttributes();
-        // };
+            // update the DB
+            // console.log("We will play the jingle, let's update the DB to remember that");
+            attributes.lastPlayed = now;
+            attributes.playedCount = attributes.playedCount + 1;
+            handlerInput.attributesManager.savePersistentAttributes();
+        };
 
         return WILL_PLAY_JINGLE;
 
