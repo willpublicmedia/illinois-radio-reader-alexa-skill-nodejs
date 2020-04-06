@@ -11,7 +11,7 @@ let en = {
         }
     },
     url: 'https://icecast.will.illinois.edu/WILL-IRR',
-    startJingle: 'https://s3-eu-west-1.amazonaws.com/alexa.maxi80.com/assets/jingle.m4a'
+    startJingle: 'https://s3.amazonaws.com/audio02.will.illinois.edu/irr-indemnification.mp3'
 };
 
 let globalAudioData = {
