@@ -37,7 +37,7 @@
         "type": "IntentRequest",
         "requestId": "amzn1.echo-api.request.123",
         "timestamp": "2018-07-15T08:57:16Z",
-        "locale": "en-GB",
+        "locale": "en-US",
         "intent": {
             "name": "AMAZON.PauseIntent",
             "confirmationStatus": "NONE"
