@@ -31,6 +31,6 @@
     "type": "LaunchRequest",
     "requestId": "amzn1.echo-api.request.123",
     "timestamp": "2017-03-04T19:02:37Z",
-    "locale": "en-GB"
+    "locale": "en-US"
   }
 }

@@ -32,7 +32,7 @@
     "type": "AudioPlayer.PlaybackFailed",
     "requestId": "amzn1.echo-api.request.123",
     "timestamp": "2017-07-08T09:49:39Z",
-    "locale": "en-GB",
+    "locale": "en-US",
     "token": "https://audio1.maxi80.com",
     "error": {
       "type": "MEDIA_ERROR_UNKNOWN",
