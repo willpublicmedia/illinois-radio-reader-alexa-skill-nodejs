@@ -70,7 +70,7 @@ class Util {
     static async shouldPlayJingle(handlerInput: HandlerInput): Promise<boolean> {
 
         // default to false if tracking jingle listens.
-        let WILL_PLAY_JINGLE: boolean = true;
+        let WILL_PLAY_JINGLE: boolean = false;
 
         // is a jingle defined for this locale ?
         if (audioData(handlerInput.requestEnvelope.request).startJingle === undefined) {

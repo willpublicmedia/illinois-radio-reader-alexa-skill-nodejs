@@ -26,7 +26,7 @@
     "type": "System.ExceptionEncountered",
     "requestId": "amzn1.echo-api.request.123",
     "timestamp": "2017-07-08T10:29:54Z",
-    "locale": "en-GB",
+    "locale": "en-US",
     "error": {
       "type": "INVALID_RESPONSE",
       "message": "SpeechletResponse was null"

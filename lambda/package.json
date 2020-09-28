@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rm -rf dist/*",
     "build": "tsc",
-    "test": "AWS_REGION=us-east-1 /usr/local/bin/mocha -r ts-node/register test/test*.ts"
+    "test": "npx mocha -r ts-node/register test/test*.ts"
   },
   "keywords": [
     "alexa",

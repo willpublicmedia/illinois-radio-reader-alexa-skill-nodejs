@@ -6,7 +6,7 @@ import { expect } from 'chai';
 import { interfaces, RequestEnvelope, ResponseEnvelope } from 'ask-sdk-model';
 
 import { handler as skill } from '../src/index';
-import { ddb } from './utils/DDBController';
+// import { ddb } from './utils/DDBController';
 import { audioData } from '../src/AudioAssets';
 
 import r from './request/play_intent.json'; // tslint:disable-line
@@ -27,13 +27,13 @@ describe('Audio Player Test : Play Intent with Jingle', function () {
 
     return new Promise((resolve, reject) => {
       // prepare the database
-      ddb.deleteFromDDB(USER_ID).then(data => {
+      // ddb.deleteFromDDB(USER_ID).then(data => {
         console.log("Finished preparing the database");
         skill(request, null, (error, responseEnvelope) => {
           skill_response = responseEnvelope;
           resolve();
         });
-      });
+      // });
     });
   });
 
