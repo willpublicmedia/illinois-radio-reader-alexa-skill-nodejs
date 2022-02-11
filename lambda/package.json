@@ -37,6 +37,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.engr.illinois.edu/willpublicmedia/illinois-radio-reader-alexa-skill-nodejs"
+    "url": "https://github.com/willpublicmedia/illinois-radio-reader-alexa-skill-nodejs.git"
   }
 }
