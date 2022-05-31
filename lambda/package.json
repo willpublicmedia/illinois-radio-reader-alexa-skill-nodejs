@@ -24,7 +24,7 @@
   "author": "Illinois Public Media",
   "license": "../../LICENSE.txt",
   "dependencies": {
-    "ask-sdk": "2.7.0"
+    "ask-sdk-v1adapter": "2.12.1"
   },
   "devDependencies": {
     "@types/chai": "4.2.11",
