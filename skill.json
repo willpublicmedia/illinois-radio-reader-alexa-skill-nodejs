@@ -25,7 +25,7 @@
             "streaming",
             "will"
           ],
-          "updatesDescription": "1.1.2\n\n\t- Apply security patches.\n\n1.1.1\n\n\t- Skip preroll clip.\n\n1.1.0:\n\n\t- Play copyright notification on startup.\n\n\t- Add schedule URL to description."
+          "updatesDescription": "1.2.0\n\n\t- Use Alexa ask adapter.\n\n1.1.2\n\n\t- Apply security patches.\n\n1.1.1\n\n\t- Skip preroll clip.\n\n1.1.0:\n\n\t- Play copyright notification on startup.\n\n\t- Add schedule URL to description."
         }
       },
       "isAvailableWorldwide": false,
