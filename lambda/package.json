@@ -1,6 +1,6 @@
 {
   "name": "alexa-skill-nodejs-illinois-radio-reader",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A free radio streaming service for the blind and visually impaired community of east central Illinois. Based on the sample skill by Sébastien Stormacq.",
   "main": "index.ts",
   "scripts": {
