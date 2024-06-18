@@ -48,11 +48,7 @@ jobs:
               uses: actions/upload-artifact@v4
               with:
                 name: node-app
-                path: |
-                    ./lambda/dist/
-                    ./lambda/package*.json
-                    ./lambda/irr.zip
-                    ./lambda/node_modules/
+                path: ./lambda/irr.zip
 
     deploy:
         if: ${{ ! contains(github.ref_name, '-rc') }}
@@ -75,4 +71,4 @@ jobs:
             
             - name: aws deploy
               run: |
-                aws lambda update-function-code --function-name ask-skill-illinois-radio-reader --zip-file fileb://lambda/irr.zip
+                aws lambda update-function-code --function-name ask-skill-illinois-radio-reader --zip-file fileb://irr.zip
