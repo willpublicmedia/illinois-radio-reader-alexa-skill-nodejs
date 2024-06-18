@@ -41,7 +41,7 @@ jobs:
 
             - name: zip build files
               if: ${{ ! contains(github.ref_name, '-rc') }}
-              run: zip -jr9 ./lambda/irr.zip ./lambda/dist/* ./lambda/node_modules/*
+              run: zip -r9 ./lambda/irr.zip ./lambda/dist/* ./lambda/node_modules/*
             
             - name: upload deployment artifacts
               if: ${{ ! contains(github.ref_name, '-rc') }}
