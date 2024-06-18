@@ -27,12 +27,16 @@ jobs:
                 node-version: 18
                 cache: 'npm'
             - name: install
+              working-directory: ./lambda
               run: npm ci
             - name: clean
+              working-directory: ./lambda
               run: npm run clean
             - name: build
+              working-directory: ./lambda
               run: npm run build
             - name: test
+              working-directory: ./lambda
               run: npm test
 
             - name: zip build files
