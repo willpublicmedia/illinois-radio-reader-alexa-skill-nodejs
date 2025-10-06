@@ -23,7 +23,7 @@ describe('Audio Player Test : Remote Controller Play', function () {
     return new Promise((resolve, reject) => {
         skill(request, null, (error, responseEnvelope) => {
           skill_response = responseEnvelope;
-          resolve();
+          resolve(skill_response);
         });
       });
   });

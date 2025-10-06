@@ -31,7 +31,7 @@ describe('Audio Player Test : LaunchRequest', function () {
       console.log("Finished preparing the database");
       skill(request, null, (error, responseEnvelope) => {
         skill_response = responseEnvelope;
-        resolve();
+        resolve(skill_response);
       });
       // });
     });

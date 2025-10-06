@@ -27,7 +27,7 @@ describe('AudioSample : Skill Disabled', function () {
     return new Promise((resolve, reject) => {
       skill(request, null, (error, responseEnvelope) => {
         skill_response = responseEnvelope;
-        resolve();
+        resolve(skill_response);
       });
     });
   });
@@ -38,21 +38,21 @@ describe('AudioSample : Skill Disabled', function () {
 
   }),
 
-  it('it responses with no output speech ', () => {
+    it('it responses with no output speech ', () => {
 
-    // const welcomeMessage = i18n.S(request.request, 'WELCOME_MSG', audioData(request.request).card.title);
-    expect(skill_response).to.have.property("response");
-    let r = skill_response.response;
+      // const welcomeMessage = i18n.S(request.request, 'WELCOME_MSG', audioData(request.request).card.title);
+      expect(skill_response).to.have.property("response");
+      let r = skill_response.response;
 
-    expect(r).to.not.have.property("outputSpeech");
+      expect(r).to.not.have.property("outputSpeech");
 
-  }),
+    }),
 
-  it('it responses with no directive ', () => {
+    it('it responses with no directive ', () => {
 
-    let r = skill_response.response;
-    expect(r).to.not.have.property("shouldEndSession");
-    expect(r).to.not.have.property("directives");
+      let r = skill_response.response;
+      expect(r).to.not.have.property("shouldEndSession");
+      expect(r).to.not.have.property("directives");
 
-  });
+    });
 });

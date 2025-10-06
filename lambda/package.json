@@ -27,16 +27,16 @@
   "author": "Illinois Public Media",
   "license": "../../LICENSE.txt",
   "dependencies": {
-    "ask-sdk-v1adapter": "2.12.1"
+    "ask-sdk-v1adapter": "^2.14.0"
   },
   "devDependencies": {
-    "@types/chai": "4.2.11",
-    "@types/mocha": "7.0.2",
-    "@types/node": "13.9.5",
-    "chai": "4.2.0",
-    "mocha": "10.8.2",
-    "ts-node": "8.8.1",
-    "typescript": "3.8.3"
+    "@types/chai": "^5.2.2",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^24.7.0",
+    "chai": "^6.2.0",
+    "mocha": "^11.7.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   },
   "repository": {
     "type": "git",
