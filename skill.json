@@ -6,8 +6,8 @@
           "name": "Illinois Radio Reader",
           "summary": "A free radio service for the blind and visually impaired community of east central Illinois, provided by Illinois Public Media.",
           "description": "The Illinois Radio Reader is a free service for the reading impaired community of east central Illinois. The service depends on volunteer readers who produce 80+ hours of weekly programming.\n\nTo start, just say \"Alexa, launch Illinois Radio Reader\" or \"Alexa, play Illinois Radio Reader\" to start the radio\".\n\nYou can stop the radio at any time by saying \"Alexa, stop\".\n\nSee the full reader schedule at https://will.illinois.edu/illinoisradioreader/schedule.",
-          "largeIconUri": "https://will.illinois.edu/android-chrome-512x512.png",
-          "smallIconUri": "https://will.illinois.edu/android-chrome-108x108.png",
+          "largeIconUri": "https://will.illinois.edu/touch-icon-512x512.png",
+          "smallIconUri": "https://will.illinois.edu/touch-icon-120x120.png",
           "examplePhrases": [
             "Alexa, play Illinois Radio Reader",
             "Alexa, start Illinois Radio Reader"
@@ -25,7 +25,7 @@
             "streaming",
             "will"
           ],
-          "updatesDescription": "1.2.3\n\n\t- Apply security patches.\n\n1.2.2\n\n\t- Apply security patches.\n\n1.2.0\n\n\t- Use Alexa ask adapter.\n\n1.1.2\n\n\t- Apply security patches.\n\n1.1.1\n\n\t- Skip preroll clip.\n\n1.1.0:\n\n\t- Play copyright notification on startup.\n\n\t- Add schedule URL to description."
+          "updatesDescription": "unreleased\n\n\t- Update icon path.\n\n\t- Apply security patches.\n\n1.2.3\n\n\t- Apply security patches.\n\n1.2.2\n\n\t- Apply security patches.\n\n1.2.0\n\n\t- Use Alexa ask adapter.\n\n1.1.2\n\n\t- Apply security patches.\n\n1.1.1\n\n\t- Skip preroll clip.\n\n1.1.0:\n\n\t- Play copyright notification on startup.\n\n\t- Add schedule URL to description."
         }
       },
       "isAvailableWorldwide": false,
